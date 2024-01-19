@@ -1,0 +1,35 @@
+http://localhost:3005/users
+
+###
+POST http://localhost:3005/users HTTP/1.1
+content-type: application/json
+
+{
+    "name":"mint",
+    "age":25
+}
+
+###
+
+PUT http://localhost:3005/users/1 HTTP/1.1
+content-type: application/json
+
+{
+    "name":"raginisavare",
+    "age":22
+}
+
+###
+
+DELETE http://localhost:3005/users/1 HTTP/1.1
+Content-Type: application/json
+
+###
+
+POST http://localhost:3005/tasks HTTP/1.1
+Content-Type: application/json
+
+{
+    "description":"abcd",
+    "status":"yes"
+}
